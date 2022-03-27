@@ -51,3 +51,7 @@ Using the program above, designed to summarize votes both by county and by candi
 The section of code screenshotted below was designed in this instance to consider only the votes collected per county. This section could be duplicated and reformatted in order to consider any of the use cases above.
 
 ![Sample_County_Logic](Sample_County_Logic.png)
+
+If an election audit at the voting precinct level was desired, all county information in the code above could be swapped out to show as Voting Precinct information, which would then output a similar list running through every voting precinct within all counties represented within the voting results file provided. In order to accomplish this, the voting results file would need to include either an additional field detailing voting precincts or the voting precinct information in place of the county information. A small adjustment to the code would be necessary if the additional field was added to the original file in order to ensure that the information is pulled from the correct column.
+
+If an election audit by county across multiple election cycles was desired, the code shown above would need to be edited slightly to reflect each named election cycle, as well as adding in a similar section to iterate through election cycles as the program runs, in order to output county voting information for each election. In this case, the original file would need at least one additional field reflecting the election cycle, and the Commission would need to decide how detailed an output would be desired. 
