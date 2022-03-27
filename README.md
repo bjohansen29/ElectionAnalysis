@@ -1,7 +1,7 @@
 # ElectionAnalysis
 
 ## Project Overview
-A Colorado Board of Elections employee has given you the following tawsks to complete the election audit of a recent local congressional election.
+A Colorado Board of Elections employee requested the following components in order to complete the election audit of a recent local congressional election.
 
 1. Calculate the total number of votes cast.
 2. Get a complete list of counties in which votes were cast.
@@ -13,12 +13,12 @@ A Colorado Board of Elections employee has given you the following tawsks to com
 8. Calculate the percentage of votes each candidate won.
 9. Determine the winner of the election based on popular vote.
 
-# Summary
+## Summary
 The analysis of the election shows:
 - There were a total of 369,711 votes cast in the election.
 A breakdown of voting by county and by candidate follows.
 
-## County Summary
+### County Summary
 - The counties voting were:
     - Jefferson County
     - Denver County
@@ -29,7 +29,7 @@ A breakdown of voting by county and by candidate follows.
     - Arapahoe County cast 6.7% of the votes with a total of 24,801 votes.
 - The county casting the most votes was Denver, with 306,055 votes.
 
-## Candidate Summary
+### Candidate Summary
 - The candidates were:
     - Charles Casper Stockham
     - Diana DeGette
