@@ -27,7 +27,7 @@ A breakdown of voting by county and by candidate follows.
     - Jefferson County cast 10.5% of the votes with a total of 38,855 votes.
     - Denver County cast 82.8% of the votes with a total of 306,055 votes.
     - Arapahoe County cast 6.7% of the votes with a total of 24,801 votes.
-- The county casting the most votes was X, with y votes.
+- The county casting the most votes was Denver, with 306,055 votes.
 
 ## Candidate Summary
 - The candidates were:
